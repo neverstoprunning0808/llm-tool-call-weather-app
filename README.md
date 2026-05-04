@@ -2,6 +2,8 @@
 
 A conversational weather app: ask about the weather in natural language and get real-time forecasts.
 
+🔗 **Live Demo:** [Weather Forecast Assistant](https://vinh-nguyen-the-weather-forecast-assistant.streamlit.app)
+
 ## How It Works
 
 1. **LLM** (`llama-3.1-8b-instant`) extracts city and country from your query
@@ -41,3 +43,6 @@ streamlit run app.py
 | Weather API | [Open-Meteo](https://open-meteo.com) |
 | UI | [Streamlit](https://streamlit.io) |
 
+## Preview
+
+![Weather Assistant UI](assets/ui.png)
