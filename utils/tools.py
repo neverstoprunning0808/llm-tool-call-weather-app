@@ -31,7 +31,8 @@ def extract_the_city_and_country(client, user_query):
 
 
 def get_coordinates_for_city(geo_name):
-    geolocator = Nominatim(user_agent="city_coordinate_finder")
+    geolocator = Nominatim(user_agent="city_coordinate_finder",
+                               timeout=10)
 
     if location := geolocator.geocode(f"{geo_name['city']}, {geo_name['country']}"):
         return location.latitude, location.longitude
