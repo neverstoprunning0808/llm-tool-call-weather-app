@@ -19,7 +19,7 @@ A conversational weather app: ask about the weather in natural language and get 
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/llm-tool-call-weather-assistant
+git clone https://github.com/neverstoprunning0808/llm-tool-call-weather-assistant
 cd llm-tool-call-weather-assistant
 pip install -r requirements.txt
 ```
